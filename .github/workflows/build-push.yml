@@ -32,4 +32,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: sri05/workflow_nginx:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/workflow_nginx:latest
